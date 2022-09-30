@@ -13,6 +13,7 @@ export default defineConfig({
     presetUno(),
     presetIcons({
       scale: 1.2,
+      cdn: 'https://esm.sh/',
     }),
     presetTypography(),
     presetWebFonts(),
