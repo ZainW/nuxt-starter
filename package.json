@@ -5,11 +5,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "@iconify/json": "^2.1.115",
     "@nuxtjs/tailwindcss": "^5.3.3",
     "@unocss/nuxt": "^0.45.26",
-    "nuxt": "3.0.0-rc.11"
+    "@vueuse/nuxt": "^9.3.0",
+    "eslint": "^8.24.0",
+    "nuxt": "3.0.0-rc.11",
+    "typescript": "^4.8.4"
   }
 }
